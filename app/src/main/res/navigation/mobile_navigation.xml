@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_view_meetings">
+
+    <fragment
+        android:id="@+id/nav_view_meetings"
+        android:name="com.example.musangano.ui.view_meetings.ViewMeetingsFragment"
+        android:label="@string/view_meetings"
+        tools:layout="@layout/fragment_view_meetings" />
+
+    <fragment
+        android:id="@+id/nav_create_meeting"
+        android:name="com.example.musangano.ui.create_meeting.CreateMeetingFragment"
+        android:label="@string/create_meeting"
+        tools:layout="@layout/fragment_create_meeting" />
+
+    <fragment
+        android:id="@+id/nav_view_register"
+        android:name="com.example.musangano.ui.previous_meetings.PreviousMeetingsFragment"
+        android:label="@string/view_register"
+        tools:layout="@layout/fragment_view_previous_metings" />
+</navigation>

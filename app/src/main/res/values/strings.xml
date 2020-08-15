@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Musangano</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Meeting Organiser</string>
+    <string name="nav_header_subtitle">meetingorgniser@your.co.zw</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="view_meetings">Upcoming Meetings</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="view_register">Previous Meetings</string>
+    <string name="Exit">Exit</string>
+    <string name="menu_view_meetings">Upcoming Meetings</string>
+    <string name="menu_gallery">Create Meetings</string>
+    <string name="menu_slideshow">Previous Meetings</string>
+    <string name="agenda">Agenda</string>
+    <string name="venue">Venue</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="meetingid">MeetingID</string>
+    <string name="scan_employee_qr">Scan Employee QR</string>
+    <string name="view_meeting_register">View Meeting Register</string>
+    <string name="edit_meeting_details">Edit Meeting Details</string>
+
+    <string name="remove_meeting">REMOVE MEETING</string>
+
+</resources>
